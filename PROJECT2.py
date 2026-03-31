@@ -174,12 +174,12 @@ def lighten_color(hex_color, amount=30):
 
 # ---------------- GUI ---------------- #
 root=TkinterDnD.Tk()
-root.title("Mini Digital Forensic Suite")
+root.title("TEXT DECODER AND HASH IDENTIFIER TOOL")
 root.geometry("1100x750")
 root.configure(bg=BG_COLOR)
 
 # ----- Header -----
-header = tk.Label(root, text="🔥 Mini Digital Forensic Suite 🔥",
+header = tk.Label(root, text="🔥 TEXT DECODER AND HASH IDENTIFIER TOOL 🔥",
                   font=("Segoe UI", 24, "bold"),
                   bg=BG_COLOR, fg="#00FFAA")
 header.pack(pady=15)
